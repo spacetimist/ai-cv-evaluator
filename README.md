@@ -15,7 +15,7 @@ An AI-powered backend service that automates initial screening of job applicatio
 
 ## 🏗️ Architecture
 
-![Diagram Alir](images/image.png)
+![Diagram Alir](image.png)
 
 ## 🚀 Quick Start
 
