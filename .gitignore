@@ -2,3 +2,5 @@
 *.log
 __pycache__/
 *.sqlite
+data/uploads/         
+chroma_db/
