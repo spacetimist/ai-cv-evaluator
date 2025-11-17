@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install --no-cache-dir -r requirements.txt
+# Menetapkan batas waktu unduhan PIP menjadi 300 detik (5 menit)
+RUN pip install --no-cache-dir --default-timeout=300 -r requirements.txt
 
 # Copy application code
 COPY . .

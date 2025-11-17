@@ -26,7 +26,7 @@ An AI-powered backend service that automates initial screening of job applicatio
 - Redis
 - Docker & Docker Compose (optional, recommended)
 
-### Option 1: Docker (Recommended)
+### Option 1: Docker (Recommended) 
 
 1. **Clone and setup**
 ```bash
