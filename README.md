@@ -316,14 +316,7 @@ Full API documentation available at: http://localhost:8000/docs
 ## 🧪 Testing
 
 ```bash
-# Run tests
-pytest
-
-# Run with coverage
-pytest --cov=app tests/
-
-# Run specific test
-pytest tests/test_evaluation.py
+python scripts/test_api.py "[path to cv pdf file]" "[path to project report pdf file]"
 ```
 
 ## 🎯 Evaluation Pipeline
@@ -489,23 +482,3 @@ python scripts/ingest_documents.py --reset
 3. **Model Selection**: Use faster models (Haiku, GPT-3.5) for quick evaluations
 4. **Database Indexing**: Add indexes on frequently queried columns
 5. **Connection Pooling**: Configure SQLAlchemy pool size for high concurrency
-
-## 🤝 Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new features
-4. Submit a pull request
-
-## 📄 License
-
-MIT License - feel free to use in your projects
-
-## 👥 Contact
-
-For questions or issues, please open a GitHub issue.
-
----
-
-**Built with ❤️ for automated candidate screening**
